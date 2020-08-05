@@ -6,27 +6,27 @@
 	cursor: pointer;
 	font-size: 12px;
 	right: 0;
-	margin-left: -100px;
-	padding: 5px 2px 5px 5px;
+	margin-right: -100px;
+	padding: 5px 5px 5px 2px;
 	position: fixed;
-	transition: margin-left 1s;
+	transition: margin-right 1s;
 	width: 60px;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 }
 
 #waifu-toggle.waifu-toggle-active {
-	margin-left: -50px;
+	margin-right: -38px;
 }
 
 #waifu-toggle.waifu-toggle-active:hover {
-	margin-left: -30px;
+	margin-right: -30px;
 }
 
 #waifu {
 	bottom: -1000px;
-	right: 30px;
+	right: 10px;
 	line-height: 0;
-	margin-bottom: -10px;
+	margin-bottom: -12px;
 	position: fixed;
 	transform: translateY(3px);
 	transition: transform .3s ease-in-out, bottom 3s ease-in-out;
