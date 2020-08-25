@@ -42,7 +42,7 @@
 		"selector": ".fa-folder-open",
 		"text": ["文章都分类好啦～", "点击来查看文章分类哦。"]
 	}, {
-		"selector": ".fa-archive, .card-archives",
+		"selector": ".fa-archive.card-archives",
 		"text": ["翻页比较麻烦吗，那就来看看文章归档吧。", "文章目录都整理在这里啦！"]
 	}, {
 		"selector": "a[href^='/link/']",
@@ -63,7 +63,7 @@
 		"selector": ".feed-link a, a[href^='/atom.xml']",
 		"text": ["这里可以使用 RSS 订阅呢！", "利用 feed 订阅器，就能快速知道博客有没有更新了呢。"]
 	}, {
-		"selector": ".cc-opacity, .post-copyright-author",
+		"selector": ".cc-opacity.post-copyright-author",
 		"text": ["要记得规范转载哦。", "所有文章均采用 CC BY-NC-SA 4.0 许可协议～", "转载前要先注意下文章的版权协议呢。"]
 	}, {
 		"selector": ".links-of-author",
@@ -72,7 +72,7 @@
 		"selector": ".fancybox img, img.medium-zoom-image",
 		"text": ["点击图片可以放大呢！"]
 	}, {
-		"selector": ".copy-btn",
+		"selector": ".copy-button",
 		"text": ["代码可以直接点击复制哟。"]
 	}, {
 		"selector": ".fa-github",
@@ -87,11 +87,26 @@
 		"selector": "a[href^='/categories/']",
 		"text": ["要去看看 <span>{text}</span> 分类么？", "点它可以查看此分类下的所有文章哟！"]
 	}, {
+		"selector": ".card-announcement",
+		"text": ["看看主人的公告，说不定有重要的内容哦"]
+	}, {
+		"selector": ".card-oshi",
+		"text": ["说着单推却D别的女人的弟弟是要被斩首的哦","我才不是DD","DD斩首"]
+	}, {
+		"selector": "a[href^='/questionbox/']",
+		"text": ["点击这里可以匿名提问啦"]
+	}, {
 		"selector": "a[href^='/archives/']",
 		"text": ["要去看看 <span>{text}</span> 日期的内容么？", "点它可以查看此归档下的所有文章哟！"]
 	}, {
 		"selector": "a[rel='contents']",
 		"text": ["点击来阅读全文哦。"]
+	}, {
+		"selector": ".card-recent-post",
+		"text": ["这里有最新文章推荐哦"]
+	}, {
+		"selector": ".sidebar-toc",
+		"text": ["这边是快速通关手册哦","这边就是目录啦","点击电梯直达楼层哦"]
 	}, {
 		"selector": "#to_comment",
 		"text": ["要去看看评论吗？"]
@@ -120,10 +135,10 @@
 		"selector": ".icon-qq",
 		"text": ["分享到QQ，嘛也不错"]
 	}, {
-		"selector": ".next-post",
+		"selector": ".next-cover.next-post",
 		"text": ["来看看下一篇文章吧。", "点它可以看下一篇文章哦！", "要翻到下一篇文章吗？"]
 	}, {
-		"selector": ".prev-cover",
+		"selector": ".prev-cover.prev-post",
 		"text": ["来看看上一篇文章吧。", "点它可以看上一篇文章哦！", "要翻到上一篇文章吗？"]
 	}, {
 		"selector": ".extend.next",
@@ -176,8 +191,11 @@
 		"date": "01/01",
 		"text": "<span>元旦</span>了呢，新的一年又开始了，今年是{year}年～"
 	}, {
+		"date": "01/15",
+		"text": "今天是主人的生日哦，可以帮我为主人送上祝福嘛"
+	}, {
 		"date": "02/14",
-		"text": "又是一年<span>情人节</span>，{year}年找到对象了嘛～"
+		"text": "又是一年<span>情人节</span>，{year}年收到巧克力了不？"
 	}, {
 		"date": "03/08",
 		"text": "今天是<span>国际妇女节</span>！"
@@ -185,23 +203,20 @@
 		"date": "03/12",
 		"text": "今天是<span>植树节</span>，要保护环境呀！"
 	}, {
+		"date": "03/14",
+		"text": "今天是<span>白色情人节</span>，又是巧克力日呢！"	
+	}, {
 		"date": "04/01",
 		"text": "悄悄告诉你一个秘密～<span>今天是愚人节，不要被骗了哦～</span>"
 	}, {
 		"date": "05/01",
-		"text": "今天是<span>五一劳动节</span>，计划好假期去哪里了吗～"
+		"text": "今天是<span>五一国际劳动节</span>，计划好假期去哪里了吗～"
 	}, {
 		"date": "06/01",
-		"text": "<span>儿童节</span>了呢，快活的时光总是短暂，要是永远长不大该多好啊…"
-	}, {
-		"date": "09/03",
-		"text": "<span>中国人民抗日战争胜利纪念日</span>，铭记历史、缅怀先烈、珍爱和平、开创未来。"
+		"text": "<span>儿童节</span>了呢，人。。人家才三岁半嘛…"
 	}, {
 		"date": "09/10",
-		"text": "<span>教师节</span>，在学校要给老师问声好呀～"
-	}, {
-		"date": "10/01",
-		"text": "<span>国庆节</span>到了，为祖国母亲庆生！"
+		"text": "<span>教师节</span>，老师们辛苦啦～"
 	}, {
 		"date": "11/05-11/12",
 		"text": "今年的<span>双十一</span>是和谁一起过的呢～"

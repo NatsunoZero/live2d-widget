@@ -1,5 +1,5 @@
 // 注意：live2d_path 参数应使用绝对路径
-const live2d_path = "https://cdn.jsdelivr.net/gh/NatsunoZero/live2d-widget@0.8.5/";
+const live2d_path = "https://cdn.jsdelivr.net/gh/NatsunoZero/live2d-widget@0.8.6/";
 //const live2d_path = "/live2d-widget/";
 
 // 封装异步加载资源的方法
@@ -60,4 +60,6 @@ console.log(`
               ﾚ'ヽL__|___i,___,ンﾚ|ノ
                   ﾄ-,/  |___./
                   'ｰ'    !_,.:
+
+这里是经过rtmacha的修改后的版本
 `);
