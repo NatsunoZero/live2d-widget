@@ -13,6 +13,8 @@
  - 诸多其他修改
 
 
+具体效果可以参考[我的博客](https://blog.cha.moe)
+
 这里是原作者仓库的[传送门](https://github.com/stevenjoezhang/live2d-widget)
 
 
