@@ -147,34 +147,34 @@
 		"selector": ".extend.prev",
 		"text": ["去上一页看看吧。", "点它可以后退哦！", "要翻到上一页吗？"]
 	}, {
-		"selector": ".relatedPosts_item",
+		"selector": ".relatedPosts",
 		"text": ["这个是推荐文章哦", "这篇文章看起来你可能会有兴趣哦！", "不来看看这篇文章么？"]
 	}, {
-		"selector": "input.vnick",
-		"text": ["该怎么称呼你呢？", "留下你的尊姓大名！"]
+		"selector": "input.vnick input[name='nick']",
+		"text": ["该怎么称呼你呢？", "留下QQ的话就有头像啦！", "这里填写好QQ号的话非常便利的说！"]
 	}, {
-		"selector": ".vmail",
-		"text": ["留下你的邮箱，不然就是无头像人士了！", "记得设置好 Gravatar 头像哦！", "为了方便通知你最新消息，一定要留下邮箱！"]
+		"selector": ".vmail input[name='mail']",
+		"text": ["留下你的邮箱！", "如果想要及时收到回复的话，邮箱要写清楚哦", "为了方便通知你最新消息，一定要留下邮箱！"]
 	}, {
-		"selector": ".vlink",
-		"text": ["快快告诉我你的家在哪里，好让我去参观参观！"]
+		"selector": ".vlink input[name='link']",
+		"text": ["快快告诉我你的家在哪里，好让我去参观参观！", "如果愿意的话可以交个朋友呀"]
 	}, {
-		"selector": ".veditor",
+		"selector": ".veditor.tk-input.el-textarea",
 		"text": ["想要去评论些什么吗？", "要说点什么吗？", "觉得博客不错？快来留言和主人交流吧！"]
 	}, {
-		"selector": ".vcontrol a",
+		"selector": ".vcontrol a.__markdown",
 		"text": ["你会不会熟练使用 Markdown 呀？", "使用 Markdown 让评论更美观吧～"]
 	}, {
-		"selector": ".vemoji-btn",
+		"selector": ".vemoji-btn.OwO-logo",
 		"text": ["要插入一个萌萌哒的表情吗？", "要来一发表情吗？"]
 	}, {
-		"selector": ".vpreview-btn",
+		"selector": ".vpreview-btn.tk-preview",
 		"text": ["要预览一下你的发言吗？", "快看看你的评论有多少负熵！"]
 	}, {
-		"selector": ".vsubmit",
+		"selector": ".vsubmit.tk-send",
 		"text": ["评论没有审核，要对自己的发言负责哦～", "要提交了吗，请耐心等待回复哦～"]
 	}, {
-		"selector": ".vcontent",
+		"selector": ".vcontent.tk-content",
 		"text": ["哇，快看看这个精彩评论！", "如果有疑问，请尽快留言哦～"]
 	}],
 	"click": [{
